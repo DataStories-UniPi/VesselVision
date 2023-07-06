@@ -20,7 +20,7 @@ TODO
 
 
 ## Contributors
-Andreas Tritsarolis, Yannis Kontoulis, Nikos Pelekis, Yannis Theodoridis; Data Science Lab., University of Piraeus
+Andreas Tritsarolis, Nikos Pelekis, Yannis Theodoridis; Data Science Lab., University of Piraeus
 
 
 # Acknowledgement
