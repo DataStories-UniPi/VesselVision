@@ -25,7 +25,7 @@ which will initialize Zookeeper and Apache Kafka and create the Topics needed fo
 python -m bokeh serve --show ./monitor --allow-websocket-origin=<SERVER_IP>
 ```
 
-Adjusting the parameters of MaSEC is possible via the ```lib/kafka_config_c_p_v01.py``` file.
+Adjusting the parameters of VesselVision is possible via the ```lib/kafka_config_c_p_v01.py``` file.
 
 
 
