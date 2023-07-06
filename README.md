@@ -19,8 +19,12 @@ conda install --file requirements.txt
 TODO
 
 
-## Contributors
-Andreas Tritsarolis, Nikos Pelekis, Yannis Theodoridis; Data Science Lab., University of Piraeus
+# Contributors
+Andreas Tritsarolis; Department of Informatics, University of Piraeus
+
+Nikos Pelekis; Department of Statistics & Insurance Science, University of Piraeus
+
+Yannis Theodoridis; Department of Informatics, University of Piraeus
 
 
 # Acknowledgement
