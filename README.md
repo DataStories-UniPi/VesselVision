@@ -15,8 +15,18 @@ conda install --file requirements.txt
 
 
 ## Usage
+To use VesselVision at first run the ```MaSEC.py``` script using the following command
+``` Python
+python VesselVision.py
+```
 
-TODO
+which will initialize Zookeeper and Apache Kafka and create the Topics needed for the data stream and its results. Afterwards, in order to instantiate the web application (```monitor```) for the visualization, run the following command
+``` Python
+python -m bokeh serve --show ./monitor --allow-websocket-origin=<SERVER_IP>
+```
+
+Adjusting the parameters of MaSEC is possible via the ```lib/kafka_config_c_p_v01.py``` file.
+
 
 
 # Contributors
