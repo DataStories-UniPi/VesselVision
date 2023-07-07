@@ -13,6 +13,8 @@ pip install −r requirements.txt
 conda install --file requirements.txt
 ```
 
+In order to install ST_Visions, please consult the documentation at https://github.com/DataStories-UniPi/ST-Visions.
+
 
 ## Usage
 To use VesselVision at first run the ```MaSEC.py``` script using the following command
@@ -27,6 +29,7 @@ python -m bokeh serve --show ./monitor --allow-websocket-origin=<SERVER_IP>
 
 Adjusting the parameters of VesselVision is possible via the ```lib/kafka_config_c_p_v01.py``` file.
 
+To train a VCRA model from scratch, please consult the code at https://github.com/DataStories-UniPi/VCRA. For convenience, a pretrained VCRA model is provided in the '''data/pickle''' directory.
 
 
 # Contributors
