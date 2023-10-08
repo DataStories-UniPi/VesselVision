@@ -17,12 +17,12 @@ In order to install ST_Visions, please consult the documentation at https://gith
 
 
 ## Usage
-To use VesselVision at first run the ```MaSEC.py``` script using the following command
+To use VesselVision at first run the ```VesselVision.py``` script using the following command
 ``` Python
 python VesselVision.py
 ```
 
-which will initialize Zookeeper and Apache Kafka and create the Topics needed for the data stream and its results. Afterwards, in order to instantiate the web application (```monitor```) for the visualization, run the following command
+which will initialize Zookeeper and Apache Kafka and create the Topics needed for the data stream and its results. Afterwards, in order to instantiate the web application for the visualization, run the following command
 ``` Python
 python -m bokeh serve --show ./monitor --allow-websocket-origin=<SERVER_IP>
 ```
@@ -38,6 +38,12 @@ Andreas Tritsarolis; Department of Informatics, University of Piraeus
 Nikos Pelekis; Department of Statistics & Insurance Science, University of Piraeus
 
 Yannis Theodoridis; Department of Informatics, University of Piraeus
+
+
+# Citation
+If you use VesselVision in your project, we would appreciate citations to the following paper:
+
+> Andreas Tritsarolis, Nikos Pelekis, and Yannis Theodoridis. 2023. VesselVision: Fleet Safety Awareness over Streaming Vessel Trajectories (Demo Paper). In proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL). https://doi.org/10.1145/3589132.3625573
 
 
 # Acknowledgement
