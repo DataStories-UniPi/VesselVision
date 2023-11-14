@@ -16,7 +16,9 @@ conda install --file requirements.txt
 In order to install ST_Visions, please consult the documentation at https://github.com/DataStories-UniPi/ST-Visions.
 
 
-## Usage
+# Usage
+To see VesselVision in action, please visit https://www.datastories.org/vesselvision/.
+
 To use VesselVision at first run the ```VesselVision.py``` script using the following command
 ``` Python
 python VesselVision.py
